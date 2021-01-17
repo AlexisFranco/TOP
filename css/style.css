@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+#coverPage {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../images/medellin.jpg') no-repeat center top;
+  background-size: cover;
+  color: white;
+  padding-bottom: 25px;
+  transition: all 2s;
+}
+
+.perfil h1,
+.perfil p {
+  margin: 5px;
+  font-weight: bold;
+}
+
+.perfil p {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding: 5px;
+}
+
+#coverPage img {
+  border-radius: 50%;
+  border: solid 5px white;
+  height: 200px;
+  width: 200px;
+  margin-top: 130px;
+  margin-bottom: 90px;
+}
+
+.networking a {
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin: 15px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 50px;
+}
+
+.networking a:hover {
+  background-color: rgba(67, 178, 202, 0.8);
+}
+
+footer {
+  margin: 50px;
+  font-size: 50px;
+  transition: all 2s;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  footer {
+    font-size: 25px;
+  }
+
+  #coverPage img {
+    height: 100px;
+    width: 100px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    border: solid 2px white;
+  }
+  .networking a {
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+  }
+}
